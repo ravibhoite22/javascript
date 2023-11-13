@@ -34,3 +34,6 @@ console.log("", oneObj);
 console.log("", twoObj);
 console.log("", threeObj);
 
+//The flat() method concatenates sub-array elements
+const arrayWithArr = [1,2,3,[4,[6,5]]];
+console.log(arrayWithArr.flat(2));

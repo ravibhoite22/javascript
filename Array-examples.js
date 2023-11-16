@@ -37,3 +37,22 @@ console.log("", threeObj);
 //The flat() method concatenates sub-array elements
 const arrayWithArr = [1,2,3,[4,[6,5]]];
 console.log(arrayWithArr.flat(2));
+
+//some : return true if an of the element meet the condition, otherwise false
+let fruits = ["apple","banana","pear","watermelon"];
+
+let some = fruits.some((fruit)=>{
+    return fruit == 'apple';
+});
+
+console.log("some ",some);
+
+//every : return true if all the elements of array meet the condition, otherwise false
+
+let names = ["anil","anand","apruva","amit"];
+
+let every = names.every((name)=>{
+    return name.startsWith('b');
+})
+
+console.log("every ",every);
